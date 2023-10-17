@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box-container{
+        width: 200px;
+        height: 200px;
+        border: 2px solid #669966;
+    }
+    .box-container div{
+        padding: 10px;
+        border: 1px solid green;
+        background-color: #ffdddd;
+    }
+    #staic-box{
+        position: static;
+        top:20px;
+    }
+    #relative-box{
+        position: relative;
+        top: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="box-container">
+    <div id="static-box">static</div>
+    <div id="relative-box">relative</div>
+    <div id="absolute-box">absolute</div>
+    <div id="fixed-box">fixed</div>
+</div>
+</body>
+</html>
